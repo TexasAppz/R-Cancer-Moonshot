@@ -1,6 +1,6 @@
 ### Cancer Moonshot ###
 ####################### Question 1 & 2 ######################################################################
-mydata <- read.csv("/Users/jaimegarcia/Desktop/DESKTOP_101/code/R_code/SMU/Assigments/Assignment4_5/EMIS5357-7357-FL18-Assignments45_3/Cancer_Data12A.csv")
+mydata <- read.csv("Cancer_Data12A.csv")
 str(mydata)
 set.seed(1000)
 # extracting the year from the date of patent filing
